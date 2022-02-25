@@ -1,0 +1,36 @@
+.head {
+  border: 1px solid black;
+  width: 100%;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  border: 1px solid black;
+  width: 100%;
+}
+.bar {
+  display: fixed;
+  width: 20%;
+  background-color: aqua;
+  border: 1px solid black;
+  height: 100%;
+}
+.none {
+  display: none;
+  width: 20%;
+  background-color: aqua;
+  border: 1px solid black;
+  height: 100%;
+}
+.main {
+  display: absolute;
+  width: 80%;
+  border: 1px solid black;
+  background-color: red;
+}
+.main2 {
+  width: 80%;
+  border: 1px solid black;
+  background-color: royalblue;
+}
